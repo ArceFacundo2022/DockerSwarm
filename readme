@@ -1,0 +1,9 @@
+1 - Subir las imagenes con el compose, en el archivo imagenes-compose.yml
+
+2 - usar una de ellas para hacer el servicio colo candolo en Images: en el archivo service-compose.yml
+
+3 - ejecutar el codigo docker stack deploy -c "direccion del archivo service-compose.yml" "nombre del servicio"
+
+4 - usar docker service scale "nombre del servicio"="cantidad de contenedores" para levantar mas contenedores o reducirlos
+
+5 - (se levantaran los contenedores valanceados por el swarm de docker)
